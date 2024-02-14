@@ -3,7 +3,6 @@ use super::common::ask_user_input;
 pub fn find_median() {
     let user_input = ask_user_input();
     let nums = covert_string_to_array(user_input);
-
     find_and_print_median(nums);
 }
 
