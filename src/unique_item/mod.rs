@@ -1,4 +1,4 @@
-fn find_unique_item<T: Ord>(list: Vec<T>) -> Option<Vec<T>> {
+pub fn find_unique_item<T: Ord>(list: Vec<T>) -> Option<Vec<T>> {
     if list.is_empty() {
         return None;
     }
